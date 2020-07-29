@@ -1,0 +1,94 @@
+/* Start Navbar */
+
+nav {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: #fff;
+}
+
+.navbar-brand span {
+  color: #f82249;
+}
+
+nav ul li {
+  margin-right: 22px;
+}
+
+nav ul li a {
+  position: relative;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px !important;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f82249;
+}
+
+nav ul li a::before,
+nav ul li a::after {
+  position: absolute;
+  content: "";
+  width: 55px;
+  height: 3px;
+  background-color: #fff;
+  transform: rotate(90deg);
+  transition: 0.3s;
+}
+
+nav ul li a::before {
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+}
+
+nav ul li a::after {
+  bottom: 0px;
+  right: 0;
+  transform-origin: 100%;
+}
+
+nav ul li a:hover::before {
+  transform: rotate(0deg);
+  left: 50%;
+  transform: translate(-50%);
+}
+
+nav ul li a:hover::after {
+  transform: rotate(0deg);
+  right: 50%;
+  transform: translate(50%);
+}
+
+nav .navbar-toggler {
+  outline: none;
+}
+
+nav .navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+}
+
+nav .navbar-toggler .two {
+  margin: 7px 0;
+}
+
+.top {
+  transform: rotate(-45deg) translate(-2px, 5px);
+}
+
+.bottom {
+  transform: rotate(45deg) translate(-8px, -11px);
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* End Navbar */
