@@ -56,12 +56,14 @@ nav ul li a:hover::before {
   transform: rotate(0deg);
   left: 50%;
   transform: translate(-50%);
+  background: #f82249;
 }
 
 nav ul li a:hover::after {
   transform: rotate(0deg);
   right: 50%;
   transform: translate(50%);
+  background: #f82249;
 }
 
 nav .navbar-toggler {
