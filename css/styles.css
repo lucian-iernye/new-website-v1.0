@@ -209,11 +209,9 @@ nav .navbar-toggler .two {
     font-size: 72px;
   }
 }
-
 /* end header */
 
 /* start about */
-
 .about {
   color: #444;
   background-color: #f9f9f9;
@@ -268,5 +266,33 @@ ul {
     margin-top: 50px;
   }
 }
-
 /* end about */
+
+/* start services */
+.services .box {
+  color: #444;
+}
+
+.services .box i {
+  font-size: 32px;
+  transition: 0.3s;
+}
+
+.services .box:hover i {
+  color: #f82249;
+}
+
+.services .box h5 {
+  margin: 20px 0;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.services .box:hover h5 {
+  color: #f82249;
+}
+
+.services .box p {
+  font-size: 14px;
+}
+/* end services */
